@@ -21,10 +21,10 @@ constructor(){
   }
 
   decrement = () => {
-    const currentCount = this.state.count
-    const newCount = currentCount - 1
+    // const currentCount = this.state.count
+    // const newCount = currentCount - 1
     
-    this.setState({ count: newCount})
+    this.setState({ count: this.state.count - 1 })
 
   }
 
